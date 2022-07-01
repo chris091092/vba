@@ -1,4 +1,4 @@
-# VBA
+# VBA Code for extracting stock price data from the Bloomberg Terminal
 
 - The whole process has three stages: defining variables, copying and pasting the 2 columns dataset into a new workbook and filling in the middle column of the new workbook. For every step in the way, I am just mimicking how one can do the same thing manually.
 - Usually the user will start with the selection of a cell by clicking one of the columns in the first row. The first row consist of a company name with the stock ticker on the right. Each pair of 2 columns is separated by a blank column. I will use that as a reference point and store the cell reference using thisworkbook dot activesheet dot range, bracket, activecell.address. I will assign this syntax to a variable called company name which is also our reference point as well.
